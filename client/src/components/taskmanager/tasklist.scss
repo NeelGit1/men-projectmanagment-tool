@@ -1,0 +1,30 @@
+
+
+
+.list-header {
+    max-height: 100vh; /* Set a maximum height for the container (adjust as needed) */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds container height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    max-height: calc(100vh - 50px);
+    /* Adjust the max-height as needed */
+    overflow-y: auto;
+    /* Display vertical scrollbar when content exceeds max-height */
+
+    li {
+        flex: 1;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+}
+
+

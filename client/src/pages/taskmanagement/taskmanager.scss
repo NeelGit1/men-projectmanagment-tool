@@ -1,0 +1,18 @@
+
+
+.taskmanager {
+    width: 100%;
+    display: flex;
+
+    &__left {
+        position: fixed;
+        width: 15%;
+    }
+
+    &__right {
+        margin-top: 60px;
+        margin-left: auto;
+        width: 85%;
+    }
+
+}
